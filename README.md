@@ -20,6 +20,8 @@
 
 **SiMudit** adalah **aplikasi simulator kredit kendaraan** sekaligus **CRM otomotif** yang dirancang khusus untuk sales mobil dan motor di Indonesia. Sebagai **kalkulator kredit mobil dan motor** paling lengkap, SiMudit membantu Anda melakukan **simulasi kredit mobil** dan **simulasi kredit motor** secara instan, sekaligus mengelola prospek pelanggan agar setiap peluang closing tidak pernah terlewat.
 
+👉 [DEMO SIMULASI KREDIT DI SINI](https://wpjump.github.io/simudit/)
+
 ---
 
 ## 📲 Download Aplikasi Simulator Kredit SiMudit
