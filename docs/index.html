@@ -21,7 +21,7 @@
 
     <link rel="canonical" href="https://wpjump.github.io/simudit/">
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     
     <style>
         :root {
@@ -46,7 +46,7 @@
         .section { padding: 60px 20px; }
         .section-alt { background: var(--bg-alt); }
         .container { max-width: 900px; margin: 0 auto; }
-        .section-header { text-align: center; max-width: 620px; margin: 0 auto 40px auto; }
+        .section-header { text-align: center; max-width: 650px; margin: 0 auto 40px auto; }
         .section-header h2 { font-size: 1.8rem; font-weight: 800; color: var(--primary); margin-bottom: 12px; }
         .section-header p { color: var(--text-muted); font-size: 1rem; }
 
@@ -76,6 +76,29 @@
         .result-details div { display: flex; justify-content: space-between; margin-bottom: 8px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; }
         .result-details div:last-child { margin-bottom: 0; border-bottom: none; padding-bottom: 0; }
         .disclaimer-text { font-size: 0.8rem; color: var(--text-muted); text-align: center; margin-top: 16px; font-style: italic; }
+
+        /* Features Grid */
+        .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; max-width: 1020px; margin: 0 auto; }
+        .feature-card { background: white; border: 1px solid var(--border); border-radius: var(--radius); padding: 30px 24px; box-shadow: var(--shadow); transition: transform 0.2s; }
+        .feature-card:hover { transform: translateY(-5px); }
+        .feature-card .icon { font-size: 2rem; margin-bottom: 16px; display: block; }
+        .feature-card h3 { font-size: 1.1rem; font-weight: 700; color: var(--primary); margin-bottom: 10px; }
+        .feature-card p { font-size: 0.95rem; color: var(--text-muted); }
+
+        /* CTA Download Banner */
+        .cta-download {
+            background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+            color: white; border-radius: 24px; max-width: 880px; margin: 0 auto; padding: 48px 32px; text-align: center; box-shadow: var(--shadow);
+        }
+        .cta-download h2 { font-size: 1.6rem; font-weight: 800; margin-bottom: 12px; }
+        .cta-download h2 span { color: var(--accent); }
+        .cta-download p { color: #E2E8F0; max-width: 520px; margin: 0 auto 24px auto; font-size: 0.95rem; }
+        .btn-primary {
+            display: inline-block; background: var(--accent); color: var(--primary-dark);
+            font-weight: 700; padding: 14px 30px; border-radius: 12px; text-decoration: none;
+            transition: transform 0.2s;
+        }
+        .btn-primary:hover { transform: scale(1.04); color: var(--primary-dark); }
 
         /* SEO Article Section */
         .article-content { background: white; padding: 40px; border-radius: var(--radius); box-shadow: var(--shadow); margin-bottom: 40px; }
@@ -162,13 +185,65 @@
             </div>
         </section>
 
+        <section class="section" id="fitur-simudit">
+            <div class="section-header">
+                <h2>Fitur Andalannya SiMudit</h2>
+                <p>Lebih dari sekadar kalkulator kredit — SiMudit adalah aplikasi CRM otomotif lengkap yang bikin kerjaan sales mobil dan motor jadi jauh lebih enteng.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <span class="icon">🧮</span>
+                    <h3>Kalkulator Kredit Super Cepat</h3>
+                    <p>DP Murni, cicilan, biaya admin, sampai asuransi (All Risk, TLO, Kombinasi) dihitung otomatis. Cocok buat kendaraan baru atau bekas.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="icon">👥</span>
+                    <h3>CRM & Buku Prospek Digital</h3>
+                    <p>Nggak usah ribet pakai buku tulis lagi. Catat data klien dan atur status mereka dari Cold, Warm, Hot, sampai akhirnya Closing!</p>
+                </div>
+                <div class="feature-card">
+                    <span class="icon">📅</span>
+                    <h3>Pengingat Jadwal & Target</h3>
+                    <p>Biar nggak kelupaan follow-up, aplikasi ini bakal ngingetin jadwalmu. Tersedia juga dashboard buat pantau target jualan bulanan.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="icon">🎨</span>
+                    <h3>Bikin Penawaran Instan</h3>
+                    <p>Tinggal klik, hasil simulasi langsung jadi file PDF atau gambar kece, lengkap sama watermark kontak dan nama kamu.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="icon">📴</span>
+                    <h3>100% Offline & Auto-Backup</h3>
+                    <p>Pameran di basement susah sinyal internet? Tenang, aplikasi ini tetep jalan lancar. Datamu bakal otomatis di-backup ke Google Drive pas online.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="icon">🏆</span>
+                    <h3>Gamifikasi Seru</h3>
+                    <p>Makin semangat jualan dengan ngumpulin Poin (XP) dan Lencana (Badge) eksklusif tiap kali nambah prospek atau cetak closing.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="icon">🗄️</span>
+                    <h3>Custom Rate Leasing</h3>
+                    <p>Kamu bebas banget masukin dan nambahin rate bunga dari leasing rekananmu kayak BCA Finance, Adira, BFI, ACC, MTF, dan lainnya.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-alt">
+            <div class="cta-download">
+                <h2>Mau hitung mundur dari <span>Total DP</span>, atau pasin <span>Cicilan Bulanan</span>?</h2>
+                <p>Download SiMudit di Google Play sekarang — kamu tinggal masukin budget DP atau target cicilan klien, dan biarin sistem yang otomatis ngehitungin skema kreditnya. Gampang banget!</p>
+                <a href="https://play.google.com/store/apps/details?id=com.purnomosidi.simudit" class="btn-primary" target="_blank" rel="noopener">📲 Download SiMudit di Google Play</a>
+            </div>
+        </section>
+
         <section class="section">
             <div class="container">
                 <div class="article-content">
                     <h3>Kenapa Sales Otomotif Jaman Now Butuh SiMudit?</h3>
                     <p>Pernah nggak sih, lagi asyik-asyiknya ngobrol sama calon pembeli, tiba-tiba ditanya, <em>"Mbak/Mas, kalau DP segini cicilannya kena berapa ya?"</em> Terus kita buru-buru buka <strong>kalkulator kredit mobil</strong> bawaan HP atau ngecek tabel brosur yang kadang angkanya kurang pas. Biar kelihatan makin pro di mata pelanggan, sekarang saatnya beralih ke <strong>aplikasi simulator kredit kendaraan</strong> yang lebih canggih dan praktis.</p>
 
-                    <p>SiMudit ini sengaja dirancang khusus buat kamu yang butuh <strong>aplikasi hitung cicilan</strong> super cepat. Nggak cuma buat mobil baru, buat kamu yang jualan unit <em>second</em>, aplikasi ini juga bisa banget diandalkan buat <strong>simulasi kredit mobil bekas</strong>. Buat temen-temen sales motor juga aman, karena fungsi <strong>simulasi kredit motor</strong> dan <strong>kredit mobil</strong>-nya bisa kamu atur sendiri sesuai *rate* bunga leasing masing-masing. Bayangin aja, kamu bisa nge-<strong>hitung DP mobil</strong> atau motor impian klien, plus premi asuransinya cuma pakai gerakan satu jari!</p>
+                    <p>SiMudit ini sengaja dirancang khusus buat kamu yang butuh <strong>aplikasi hitung cicilan</strong> super cepat. Nggak cuma buat mobil baru, buat kamu yang jualan unit <em>second</em>, aplikasi ini juga bisa banget diandalkan buat <strong>simulasi kredit mobil bekas</strong>. Buat temen-temen sales motor juga aman, karena fungsi <strong>simulasi kredit motor</strong> dan <strong>kredit mobil</strong>-nya bisa kamu atur sendiri sesuai rate bunga leasing masing-masing. Bayangin aja, kamu bisa nge-<strong>hitung DP mobil</strong> atau motor impian klien, plus premi asuransinya cuma pakai gerakan satu jari!</p>
 
                     <p>Lebih kerennya lagi, selain jadi <strong>kalkulator leasing</strong> yang presisi, SiMudit juga dilengkapi fitur <strong>CRM otomotif</strong> (Customer Relationship Management). Jadi, ini tuh bukan sekadar <strong>aplikasi hitung DP dan cicilan</strong> biasa. Kamu bisa manfaatin fitur <strong>buku prospek digital</strong> buat nyimpen data klien, ngatur jadwal <em>follow-up</em> layaknya <strong>buku tamu dealer</strong>, sampai memantau gol bulanan kamu lewat fitur <strong>aplikasi target penjualan</strong> yang ada di dalamnya.</p>
 
@@ -177,7 +252,7 @@
 
                 <div class="section-header" style="margin-top: 60px;">
                     <h2>Tanya Jawab (FAQ)</h2>
-                    <p>Beberapa hal yang sering ditanyain sama temen-temen sales sebelum pakai SiMudit.</p>
+                    <p>Beberapa hal yang sering ditanyain sama temen-temen sales sebelum mulai pakai SiMudit.</p>
                 </div>
 
                 <div class="faq-item">
@@ -202,7 +277,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2026 Dibuat dengan ☕ oleh <a href="https://purnomosidi.com" target="_blank" rel="noopener">Widodo Purnomosidi</a>. All rights reserved.</p>
+        <p>© 2026 Dibuat dengan ☕ oleh <a href="https://purnomosidi.com" target="_blank" rel="noopener">Widodo Purnomosidi</a>. All rights reserved.</p>
     </footer>
 
     <script>
