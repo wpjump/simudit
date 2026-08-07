@@ -3,123 +3,257 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Simudit - Aplikasi simulator kredit dan CRM terbaik untuk Top Sales Otomotif. Hitung cicilan kredit mobil dan motor akurat.">
-    <meta name="keywords" content="Simulator kredit, Simulasi kredit, Kalkulator kredit, Hitung cicilan, Kredit mobil, Kredit motor, Kalkulator leasing">
-    <title>SiMudit: Aplikasi Simulator Kredit & CRM Top Sales</title>
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Widodo Purnomosidi">
+    <meta name="description" content="SiMudit — aplikasi simulator kredit kendaraan sekaligus aplikasi sales mobil dan motor dengan CRM otomotif. Hitung DP dan simulasi cicilan kredit mobil bekas & baru secara instan.">
+    <meta name="keywords" content="Simulator kredit, Simulasi kredit, Kalkulator kredit, Hitung cicilan, Kredit mobil, Kredit motor, Simulasi kredit mobil, Simulasi kredit motor, Kalkulator leasing, Kalkulator kredit mobil, Aplikasi hitung cicilan, Hitung DP mobil, Simulasi kredit mobil bekas, Aplikasi sales mobil, Aplikasi sales motor, CRM otomotif, Buku prospek digital, Manajemen prospek, Buku tamu dealer, Aplikasi target penjualan, Aplikasi simulator kredit kendaraan, Cara hitung cicilan kredit mobil, Aplikasi hitung DP dan cicilan, Aplikasi kelola prospek pelanggan, Kalkulator kredit mobil dan motor">
+    <title>SiMudit: Simulator Kredit Mobil Motor & CRM Otomotif</title>
+
+    <link rel="icon" type="image/png" href="https://play-lh.googleusercontent.com/fgkJ6jkI33x0ACu5HX2UKWTaBnkHxuXQq1EAeOGIa5SYKRdPnUnxq_aS3F0-rR3GFeuhRasz0re6NAs-3BxEsd8=w240-h480-rw">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="id_ID">
+    <meta property="og:site_name" content="SiMudit">
+    <meta property="og:title" content="SiMudit: Simulator Kredit Mobil Motor & CRM Otomotif">
+    <meta property="og:description" content="Aplikasi simulator kredit kendaraan sekaligus CRM otomotif untuk sales mobil dan motor. Hitung DP dan simulasi cicilan kredit mobil bekas & baru secara instan.">
+    <!-- TODO: ganti dengan URL asli setelah halaman ini live di GitHub Pages -->
+    <meta property="og:url" content="https://GANTI-USERNAME.github.io/GANTI-REPO/">
+    <!-- Pakai logo sebagai fallback. Idealnya buat 1 gambar landscape 1200x630px biar preview share lebih rapi -->
+    <meta property="og:image" content="https://play-lh.googleusercontent.com/fgkJ6jkI33x0ACu5HX2UKWTaBnkHxuXQq1EAeOGIa5SYKRdPnUnxq_aS3F0-rR3GFeuhRasz0re6NAs-3BxEsd8=w240-h480-rw">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SiMudit: Simulator Kredit Mobil Motor & CRM Otomotif">
+    <meta name="twitter:description" content="Aplikasi simulator kredit kendaraan sekaligus CRM otomotif untuk sales mobil dan motor. Hitung DP dan cicilan kredit mobil bekas & baru secara instan.">
+    <meta name="twitter:image" content="https://play-lh.googleusercontent.com/fgkJ6jkI33x0ACu5HX2UKWTaBnkHxuXQq1EAeOGIa5SYKRdPnUnxq_aS3F0-rR3GFeuhRasz0re6NAs-3BxEsd8=w240-h480-rw">
+
+    <!-- TODO: ganti dengan URL asli halaman ini -->
+    <link rel="canonical" href="https://GANTI-USERNAME.github.io/GANTI-REPO/">
+
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <!-- Structured Data (schema.org) untuk rich result Google -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "SiMudit",
+        "alternateName": "SiMudit Simulator Kredit & CRM Otomotif",
+        "description": "Aplikasi simulator kredit kendaraan (mobil & motor) sekaligus CRM otomotif untuk sales. Hitung DP dan simulasi cicilan kredit mobil bekas maupun baru secara instan.",
+        "image": "https://play-lh.googleusercontent.com/fgkJ6jkI33x0ACu5HX2UKWTaBnkHxuXQq1EAeOGIa5SYKRdPnUnxq_aS3F0-rR3GFeuhRasz0re6NAs-3BxEsd8=w240-h480-rw",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "ANDROID",
+        "url": "https://play.google.com/store/apps/details?id=com.purnomosidi.simudit",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "IDR"
+        },
+        "author": {
+            "@type": "Person",
+            "name": "Widodo Purnomosidi"
+        }
+    }
+    </script>
+
     <style>
         :root {
             --primary: #014883;
+            --primary-dark: #001B3D;
             --accent: #FFC107;
             --bg: #F8FAFC;
+            --bg-alt: #EEF3FA;
             --text: #333333;
+            --text-muted: #64748B;
+            --border: #E2E8F0;
+            --radius: 20px;
+            --shadow: 0 10px 25px rgba(0,0,0,0.05);
         }
         * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
         body { background-color: var(--bg); color: var(--text); line-height: 1.6; }
-        
+        img { max-width: 100%; display: block; }
+
+        /* Layout helpers */
+        .section { padding: 72px 20px; }
+        .section-alt { background: var(--bg-alt); }
+        .section-header { text-align: center; max-width: 620px; margin: 0 auto 44px auto; }
+        .section-header h2 { font-size: 1.8rem; font-weight: 800; color: var(--primary); margin-bottom: 10px; }
+        .section-header p { color: var(--text-muted); font-size: 0.98rem; }
+
         /* Hero Section */
-        .hero { background: linear-gradient(135deg, #001B3D 0%, var(--primary) 100%); color: white; padding: 60px 20px; text-align: center; }
-        .hero h1 { font-size: 2.5rem; font-weight: 800; margin-bottom: 15px; color: var(--accent); }
-        .hero p { font-size: 1.1rem; max-width: 600px; margin: 0 auto 30px auto; color: #E2E8F0; }
-        .play-btn img { height: 60px; transition: transform 0.2s; }
-        .play-btn img:hover { transform: scale(1.05); }
+        .hero { background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%); color: white; padding: 56px 20px 64px; text-align: center; }
+        .hero .logo { width: 76px; height: 76px; object-fit: cover; border-radius: 18px; box-shadow: 0 8px 20px rgba(0,0,0,0.3); margin: 0 auto 20px auto; }
+        .hero h1 { font-size: 2.1rem; font-weight: 800; margin-bottom: 14px; color: var(--accent); }
+        .hero p { font-size: 1.05rem; max-width: 600px; margin: 0 auto 28px auto; color: #E2E8F0; }
+        .play-btn img { height: 58px; margin: 0 auto; transition: transform 0.2s; }
+        .play-btn:hover img { transform: scale(1.05); }
 
-        /* Container */
-        .container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
-        @media (max-width: 768px) { .container { grid-template-columns: 1fr; } }
-
-        /* Calculator Widget */
-        .calc-card { background: white; padding: 30px; border-radius: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid #E2E8F0; }
-        .calc-card h2 { color: var(--primary); font-size: 1.5rem; margin-bottom: 20px; border-bottom: 2px solid #F1F5F9; padding-bottom: 10px; }
+        /* Calculator */
+        .calculator-wrap { max-width: 460px; margin: 0 auto; }
+        .calc-card { background: white; padding: 30px; border-radius: var(--radius); box-shadow: var(--shadow); border: 1px solid var(--border); }
         .form-group { margin-bottom: 15px; }
-        .form-group label { display: block; font-weight: 600; margin-bottom: 5px; font-size: 0.9rem; }
-        .form-group input { width: 100%; padding: 12px; border: 1px solid #CBD5E1; border-radius: 10px; font-size: 1rem; outline: none; transition: border 0.3s; }
-        .form-group input:focus { border-color: var(--primary); }
-        
-        /* Result Area */
+        .form-group label { display: block; font-weight: 600; margin-bottom: 5px; font-size: 0.88rem; }
+        .form-group input, .form-group select {
+            width: 100%; padding: 12px; border: 1px solid #CBD5E1; border-radius: 10px;
+            font-size: 1rem; outline: none; background: white; transition: border 0.2s;
+        }
+        .form-group input:focus, .form-group select:focus { border-color: var(--primary); }
+
         .result-box { background: var(--primary); color: white; padding: 20px; border-radius: 12px; margin-top: 20px; text-align: center; }
-        .result-box h3 { font-size: 0.9rem; font-weight: 400; opacity: 0.9; }
+        .result-box h3 { font-size: 0.88rem; font-weight: 400; opacity: 0.9; }
         .result-box .amount { font-size: 2rem; font-weight: 800; color: var(--accent); margin: 5px 0; }
         .result-details { margin-top: 15px; text-align: left; font-size: 0.85rem; background: rgba(255,255,255,0.1); padding: 15px; border-radius: 8px; }
         .result-details div { display: flex; justify-content: space-between; margin-bottom: 5px; }
+        .result-details div:last-child { margin-bottom: 0; }
+        .disclaimer { font-size: 0.75rem; color: var(--text-muted); text-align: center; margin-top: 12px; }
 
-        /* Content Section */
-        .content-card { padding: 20px 0; }
-        .content-card h2 { color: var(--primary); margin-bottom: 15px; }
-        .content-card ul { list-style: none; margin-bottom: 20px; }
-        .content-card ul li { margin-bottom: 10px; padding-left: 25px; position: relative; }
-        .content-card ul li::before { content: '✅'; position: absolute; left: 0; top: 0; }
-        .cta-box { background: #E0F2FE; border: 1px solid #BAE6FD; padding: 20px; border-radius: 12px; margin-top: 30px; }
-        
+        /* Features grid */
+        .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 22px; max-width: 1020px; margin: 0 auto; }
+        .feature-card { background: white; border: 1px solid var(--border); border-radius: var(--radius); padding: 26px 22px; box-shadow: var(--shadow); }
+        .feature-card .icon { font-size: 1.7rem; margin-bottom: 10px; display: block; }
+        .feature-card h3 { font-size: 1.02rem; font-weight: 700; color: var(--primary); margin-bottom: 6px; }
+        .feature-card p { font-size: 0.88rem; color: var(--text-muted); }
+
+        /* CTA download banner */
+        .cta-download {
+            background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+            color: white; border-radius: 24px; max-width: 880px; margin: 0 auto; padding: 48px 32px; text-align: center;
+        }
+        .cta-download h2 { font-size: 1.5rem; font-weight: 800; margin-bottom: 12px; }
+        .cta-download h2 span { color: var(--accent); }
+        .cta-download p { color: #E2E8F0; max-width: 520px; margin: 0 auto 24px auto; font-size: 0.95rem; }
+        .btn-primary {
+            display: inline-block; background: var(--accent); color: var(--primary-dark);
+            font-weight: 700; padding: 14px 30px; border-radius: 12px; text-decoration: none;
+            transition: transform 0.2s;
+        }
+        .btn-primary:hover { transform: scale(1.04); }
+
         /* Footer */
-        footer { text-align: center; padding: 40px 20px; background: white; margin-top: 40px; color: #64748B; font-size: 0.85rem; border-top: 1px solid #E2E8F0; }
-        .seo-tags { margin-top: 20px; font-size: 0.75rem; color: #94A3B8; }
+        footer { text-align: center; padding: 36px 20px; background: white; color: var(--text-muted); font-size: 0.85rem; border-top: 1px solid var(--border); }
+        .seo-tags { margin-top: 18px; font-size: 0.72rem; color: #94A3B8; }
     </style>
 </head>
 <body>
 
-    <section class="hero">
-        <h1>SiMudit: Simulator Kredit & CRM</h1>
-        <p>Senjata rahasia Top Sales Otomotif. Hitung cicilan, kelola prospek, dan cetak closing lebih cepat langsung dari genggaman Anda.</p>
+    <header class="hero">
+        <img class="logo" src="https://play-lh.googleusercontent.com/fgkJ6jkI33x0ACu5HX2UKWTaBnkHxuXQq1EAeOGIa5SYKRdPnUnxq_aS3F0-rR3GFeuhRasz0re6NAs-3BxEsd8=w240-h480-rw" alt="Logo SiMudit - Aplikasi Simulator Kredit Mobil dan Motor">
+        <h1>SiMudit: Simulator &amp; Kalkulator Kredit Mobil dan Motor</h1>
+        <p>Kalkulator kredit mobil dan motor untuk simulasi kredit akurat, plus CRM otomotif bagi Top Sales. Hitung DP mobil, simulasi cicilan kredit mobil bekas maupun baru, dan kelola prospek pelanggan lebih cepat langsung dari genggaman Anda.</p>
         <a href="https://play.google.com/store/apps/details?id=com.purnomosidi.simudit" class="play-btn" target="_blank" rel="noopener">
-            <img alt="Dapatkan di Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/id_badge_web_generic.png">
+            <img alt="Download SiMudit - Aplikasi Simulator Kredit Mobil dan Motor di Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/id_badge_web_generic.png">
         </a>
-    </section>
+    </header>
 
-    <div class="container">
-        <div class="calc-card">
-            <h2>🧮 Coba Demo Kalkulator</h2>
-            <div class="form-group">
-                <label>Harga Kendaraan (Rp)</label>
-                <input type="text" id="harga" placeholder="Contoh: 150.000.000" onkeyup="formatRupiah(this); calculate()">
+    <main>
+        <section class="section" id="kalkulator-kredit">
+            <div class="section-header">
+                <h2>🧮 Coba Demo Aplikasi Hitung DP dan Cicilan</h2>
+                <p>Simulasi kredit mobil dan motor lengkap dengan rate asuransi, langsung dari browser.</p>
             </div>
-            <div class="form-group">
-                <label>Uang Muka / DP (%)</label>
-                <input type="number" id="dp" placeholder="Contoh: 20" value="20" min="0" max="100" oninput="calculate()">
-            </div>
-            <div class="form-group">
-                <label>Bunga per Tahun (%)</label>
-                <input type="number" id="bunga" placeholder="Contoh: 8" value="8" min="0" step="0.1" oninput="calculate()">
-            </div>
-            <div class="form-group">
-                <label>Tenor (Tahun)</label>
-                <input type="number" id="tenor" placeholder="Contoh: 5" value="5" min="1" max="10" oninput="calculate()">
-            </div>
+            <div class="calculator-wrap">
+                <div class="calc-card">
+                    <div class="form-group">
+                        <label for="harga">Harga Kendaraan (Rp)</label>
+                        <input type="text" id="harga" placeholder="Contoh: 150.000.000" onkeyup="formatRupiah(this); calculate()">
+                    </div>
+                    <div class="form-group">
+                        <label for="dp">Uang Muka / DP (%)</label>
+                        <input type="number" id="dp" placeholder="Contoh: 20" value="20" min="0" max="100" oninput="calculate()">
+                    </div>
+                    <div class="form-group">
+                        <label for="bunga">Bunga per Tahun (%)</label>
+                        <input type="number" id="bunga" placeholder="Contoh: 8" value="8" min="0" step="0.1" oninput="calculate()">
+                    </div>
+                    <div class="form-group">
+                        <label for="asuransi">Jenis Asuransi</label>
+                        <select id="asuransi" onchange="calculate()">
+                            <option value="0">Tanpa Asuransi</option>
+                            <option value="1.5">TLO (~1,5%/tahun)</option>
+                            <option value="2.5">Kombinasi (~2,5%/tahun)</option>
+                            <option value="3.5" selected>All Risk (~3,5%/tahun)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="tenor">Tenor (Tahun)</label>
+                        <input type="number" id="tenor" placeholder="Contoh: 5" value="5" min="1" max="10" oninput="calculate()">
+                    </div>
 
-            <div class="result-box">
-                <h3>Cicilan Per Bulan</h3>
-                <div class="amount" id="hasilCicilan">Rp 0</div>
-                <div class="result-details">
-                    <div><span>Total DP (Murni):</span> <strong id="hasilDP">Rp 0</strong></div>
-                    <div><span>Pokok Hutang:</span> <strong id="hasilPokok">Rp 0</strong></div>
-                    <div><span>Total Bunga:</span> <strong id="hasilBunga">Rp 0</strong></div>
+                    <div class="result-box">
+                        <h3>Cicilan Per Bulan</h3>
+                        <div class="amount" id="hasilCicilan">Rp 0</div>
+                        <div class="result-details">
+                            <div><span>Total DP (Murni):</span> <strong id="hasilDP">Rp 0</strong></div>
+                            <div><span>Pokok Hutang:</span> <strong id="hasilPokok">Rp 0</strong></div>
+                            <div><span>Total Bunga:</span> <strong id="hasilBunga">Rp 0</strong></div>
+                            <div><span>Total Asuransi:</span> <strong id="hasilAsuransi">Rp 0</strong></div>
+                        </div>
+                    </div>
+                    <p class="disclaimer">*Rate asuransi di atas hanya ilustrasi, cek rate resmi ke leasing pilihan Anda. Unduh SiMudit untuk simulasi lengkap termasuk Biaya Admin & fitur CRM.</p>
                 </div>
             </div>
-            <p style="font-size: 0.75rem; color: #64748B; text-align: center; margin-top: 10px;">*Demo sederhana. Unduh SiMudit untuk fitur Asuransi & Biaya Admin.</p>
-        </div>
+        </section>
 
-        <div class="content-card">
-            <h2>Mengapa Memilih SiMudit?</h2>
-            <p style="margin-bottom: 20px;">Tinggalkan kalkulator lama Anda. Aplikasi ini didesain khusus bagi tenaga penjual untuk:</p>
-            <ul>
-                <li><strong>Simulasi Angka Presisi:</strong> Kalkulator leasing akurat (DP Murni, Cicilan, Admin, Asuransi).</li>
-                <li><strong>Buku Prospek Digital (CRM):</strong> Klasifikasikan status klien (Cold, Warm, Hot, Customer).</li>
-                <li><strong>Manajemen Jadwal Cerdas:</strong> Pengingat otomatis untuk follow-up prospek.</li>
-                <li><strong>100% Offline:</strong> Berfungsi tanpa kuota internet, dilengkapi Smart Auto-Backup ke Google Drive.</li>
-            </ul>
-
-            <div class="cta-box">
-                <h3 style="color: var(--primary); margin-bottom: 10px;">🤝 Peluang Kolaborasi B2B (White-Label)</h3>
-                <p style="font-size: 0.9rem; margin-bottom: 15px;">Tertarik menggunakan ekosistem SiMudit untuk internal tim Dealer atau Leasing Anda dengan identitas Merek sendiri?</p>
-                <a href="mailto:hello@purnomosidi.com?subject=Peluang%20Kolaborasi%20Aplikasi%20SiMudit" style="display: inline-block; background: var(--primary); color: white; padding: 10px 20px; text-decoration: none; border-radius: 8px; font-weight: 600;">Hubungi Kami</a>
+        <section class="section">
+            <div class="cta-download">
+                <h2>Mau hitung dari <span>Total DP</span>, atau dari <span>Cicilan per Bulan</span>?</h2>
+                <p>Download SiMudit di Google Play — tinggal masukkan target budget DP atau cicilan bulanan yang kamu mau, sistem otomatis hitung skema kreditnya.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.purnomosidi.simudit" class="btn-primary" target="_blank" rel="noopener">📲 Download SiMudit di Google Play</a>
             </div>
-        </div>
-    </div>
+        </section>
+
+        <section class="section section-alt" id="fitur-simudit">
+            <div class="section-header">
+                <h2>Fitur Unggulan SiMudit</h2>
+                <p>Lebih dari sekadar kalkulator kredit — SiMudit adalah aplikasi CRM otomotif lengkap untuk sales mobil dan motor.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <span class="icon">🧮</span>
+                    <h3>Kalkulator Kredit Presisi</h3>
+                    <p>DP Murni, cicilan, biaya admin, dan asuransi (All Risk, TLO, Kombinasi) dihitung otomatis untuk kendaraan baru maupun bekas.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="icon">👥</span>
+                    <h3>CRM &amp; Buku Prospek Digital</h3>
+                    <p>Aplikasi kelola prospek pelanggan dengan klasifikasi status Cold, Warm, Hot, sampai Customer (closing).</p>
+                </div>
+                <div class="feature-card">
+                    <span class="icon">📅</span>
+                    <h3>Manajemen Jadwal &amp; Target</h3>
+                    <p>Pengingat follow-up otomatis, dashboard statistik dan target penjualan bulanan, plus buku tamu dealer.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="icon">🎨</span>
+                    <h3>Generator Penawaran</h3>
+                    <p>Cetak PDF atau gambar penawaran instan lengkap dengan watermark dan branding pribadi Anda.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="icon">📴</span>
+                    <h3>Offline First &amp; Auto-Backup</h3>
+                    <p>Bekerja 100% tanpa kuota internet, dengan Smart Auto-Backup otomatis ke Google Drive pribadi.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="icon">🏆</span>
+                    <h3>Gamifikasi Karir Sales</h3>
+                    <p>Kumpulkan Poin (XP) dan Lencana (Badge) eksklusif setiap simulasi, prospek baru, atau closing.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="icon">🗄️</span>
+                    <h3>Rate Leasing Custom</h3>
+                    <p>Tambahkan sendiri rate bunga dari berbagai leasing (BCA Finance, Adira, BFI, ACC, MTF, dll).</p>
+                </div>
+            </div>
+        </section>
+
+        
+    </main>
 
     <footer>
         <p>&copy; 2026 Widodo Purnomosidi. All rights reserved.</p>
         <div class="seo-tags">
-            Simulator kredit | Simulasi kredit | Kalkulator kredit | Hitung cicilan | Kredit mobil | Kredit motor | Kalkulator leasing | Aplikasi hitung cicilan | CRM otomotif
+            Simulator kredit | Simulasi kredit | Kalkulator kredit | Hitung cicilan | Kredit mobil | Kredit motor | Simulasi kredit mobil | Simulasi kredit motor | Kalkulator leasing | Kalkulator kredit mobil | Aplikasi hitung cicilan | Hitung DP mobil | Simulasi kredit mobil bekas | Aplikasi sales mobil | Aplikasi sales motor | CRM otomotif | Buku prospek digital | Manajemen prospek | Buku tamu dealer | Aplikasi target penjualan | Aplikasi simulator kredit kendaraan | Cara hitung cicilan kredit mobil | Aplikasi hitung DP dan cicilan | Aplikasi kelola prospek pelanggan | Kalkulator kredit mobil dan motor
         </div>
     </footer>
 
@@ -155,32 +289,38 @@
             let harga = getRawNumber(document.getElementById('harga').value);
             let dpPercent = parseFloat(document.getElementById('dp').value) || 0;
             let bungaPercent = parseFloat(document.getElementById('bunga').value) || 0;
+            let asuransiPercent = parseFloat(document.getElementById('asuransi').value) || 0;
             let tenorTahun = parseInt(document.getElementById('tenor').value) || 0;
 
             if (harga > 0 && tenorTahun > 0) {
                 // 1. Hitung DP Murni
                 let dpRupiah = harga * (dpPercent / 100);
-                
+
                 // 2. Hitung Pokok Hutang (Plafon)
                 let pokokHutang = harga - dpRupiah;
-                
+
                 // 3. Hitung Total Bunga selama tenor
                 let totalBunga = pokokHutang * (bungaPercent / 100) * tenorTahun;
-                
-                // 4. Hitung Cicilan Per Bulan
-                let totalHutang = pokokHutang + totalBunga;
+
+                // 4. Hitung Total Premi Asuransi selama tenor (dari harga OTR kendaraan)
+                let totalAsuransi = harga * (asuransiPercent / 100) * tenorTahun;
+
+                // 5. Hitung Cicilan Per Bulan
+                let totalHutang = pokokHutang + totalBunga + totalAsuransi;
                 let cicilanPerBulan = totalHutang / (tenorTahun * 12);
 
                 // Update UI
                 document.getElementById('hasilDP').innerText = toRupiah(dpRupiah);
                 document.getElementById('hasilPokok').innerText = toRupiah(pokokHutang);
                 document.getElementById('hasilBunga').innerText = toRupiah(totalBunga);
+                document.getElementById('hasilAsuransi').innerText = toRupiah(totalAsuransi);
                 document.getElementById('hasilCicilan').innerText = toRupiah(cicilanPerBulan);
             } else {
                 // Reset UI if input is incomplete
                 document.getElementById('hasilDP').innerText = 'Rp 0';
                 document.getElementById('hasilPokok').innerText = 'Rp 0';
                 document.getElementById('hasilBunga').innerText = 'Rp 0';
+                document.getElementById('hasilAsuransi').innerText = 'Rp 0';
                 document.getElementById('hasilCicilan').innerText = 'Rp 0';
             }
         }
