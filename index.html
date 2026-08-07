@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simudit - Aplikasi simulator kredit dan CRM terbaik untuk Top Sales Otomotif. Hitung cicilan kredit mobil dan motor akurat.">
+    <meta name="keywords" content="Simulator kredit, Simulasi kredit, Kalkulator kredit, Hitung cicilan, Kredit mobil, Kredit motor, Kalkulator leasing">
+    <title>SiMudit: Aplikasi Simulator Kredit & CRM Top Sales</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #014883;
+            --accent: #FFC107;
+            --bg: #F8FAFC;
+            --text: #333333;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+        body { background-color: var(--bg); color: var(--text); line-height: 1.6; }
+        
+        /* Hero Section */
+        .hero { background: linear-gradient(135deg, #001B3D 0%, var(--primary) 100%); color: white; padding: 60px 20px; text-align: center; }
+        .hero h1 { font-size: 2.5rem; font-weight: 800; margin-bottom: 15px; color: var(--accent); }
+        .hero p { font-size: 1.1rem; max-width: 600px; margin: 0 auto 30px auto; color: #E2E8F0; }
+        .play-btn img { height: 60px; transition: transform 0.2s; }
+        .play-btn img:hover { transform: scale(1.05); }
+
+        /* Container */
+        .container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+        @media (max-width: 768px) { .container { grid-template-columns: 1fr; } }
+
+        /* Calculator Widget */
+        .calc-card { background: white; padding: 30px; border-radius: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid #E2E8F0; }
+        .calc-card h2 { color: var(--primary); font-size: 1.5rem; margin-bottom: 20px; border-bottom: 2px solid #F1F5F9; padding-bottom: 10px; }
+        .form-group { margin-bottom: 15px; }
+        .form-group label { display: block; font-weight: 600; margin-bottom: 5px; font-size: 0.9rem; }
+        .form-group input { width: 100%; padding: 12px; border: 1px solid #CBD5E1; border-radius: 10px; font-size: 1rem; outline: none; transition: border 0.3s; }
+        .form-group input:focus { border-color: var(--primary); }
+        
+        /* Result Area */
+        .result-box { background: var(--primary); color: white; padding: 20px; border-radius: 12px; margin-top: 20px; text-align: center; }
+        .result-box h3 { font-size: 0.9rem; font-weight: 400; opacity: 0.9; }
+        .result-box .amount { font-size: 2rem; font-weight: 800; color: var(--accent); margin: 5px 0; }
+        .result-details { margin-top: 15px; text-align: left; font-size: 0.85rem; background: rgba(255,255,255,0.1); padding: 15px; border-radius: 8px; }
+        .result-details div { display: flex; justify-content: space-between; margin-bottom: 5px; }
+
+        /* Content Section */
+        .content-card { padding: 20px 0; }
+        .content-card h2 { color: var(--primary); margin-bottom: 15px; }
+        .content-card ul { list-style: none; margin-bottom: 20px; }
+        .content-card ul li { margin-bottom: 10px; padding-left: 25px; position: relative; }
+        .content-card ul li::before { content: '✅'; position: absolute; left: 0; top: 0; }
+        .cta-box { background: #E0F2FE; border: 1px solid #BAE6FD; padding: 20px; border-radius: 12px; margin-top: 30px; }
+        
+        /* Footer */
+        footer { text-align: center; padding: 40px 20px; background: white; margin-top: 40px; color: #64748B; font-size: 0.85rem; border-top: 1px solid #E2E8F0; }
+        .seo-tags { margin-top: 20px; font-size: 0.75rem; color: #94A3B8; }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <h1>SiMudit: Simulator Kredit & CRM</h1>
+        <p>Senjata rahasia Top Sales Otomotif. Hitung cicilan, kelola prospek, dan cetak closing lebih cepat langsung dari genggaman Anda.</p>
+        <a href="https://play.google.com/store/apps/details?id=com.purnomosidi.simudit" class="play-btn" target="_blank" rel="noopener">
+            <img alt="Dapatkan di Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/id_badge_web_generic.png">
+        </a>
+    </section>
+
+    <div class="container">
+        <div class="calc-card">
+            <h2>🧮 Coba Demo Kalkulator</h2>
+            <div class="form-group">
+                <label>Harga Kendaraan (Rp)</label>
+                <input type="text" id="harga" placeholder="Contoh: 150.000.000" onkeyup="formatRupiah(this); calculate()">
+            </div>
+            <div class="form-group">
+                <label>Uang Muka / DP (%)</label>
+                <input type="number" id="dp" placeholder="Contoh: 20" value="20" min="0" max="100" oninput="calculate()">
+            </div>
+            <div class="form-group">
+                <label>Bunga per Tahun (%)</label>
+                <input type="number" id="bunga" placeholder="Contoh: 8" value="8" min="0" step="0.1" oninput="calculate()">
+            </div>
+            <div class="form-group">
+                <label>Tenor (Tahun)</label>
+                <input type="number" id="tenor" placeholder="Contoh: 5" value="5" min="1" max="10" oninput="calculate()">
+            </div>
+
+            <div class="result-box">
+                <h3>Cicilan Per Bulan</h3>
+                <div class="amount" id="hasilCicilan">Rp 0</div>
+                <div class="result-details">
+                    <div><span>Total DP (Murni):</span> <strong id="hasilDP">Rp 0</strong></div>
+                    <div><span>Pokok Hutang:</span> <strong id="hasilPokok">Rp 0</strong></div>
+                    <div><span>Total Bunga:</span> <strong id="hasilBunga">Rp 0</strong></div>
+                </div>
+            </div>
+            <p style="font-size: 0.75rem; color: #64748B; text-align: center; margin-top: 10px;">*Demo sederhana. Unduh SiMudit untuk fitur Asuransi & Biaya Admin.</p>
+        </div>
+
+        <div class="content-card">
+            <h2>Mengapa Memilih SiMudit?</h2>
+            <p style="margin-bottom: 20px;">Tinggalkan kalkulator lama Anda. Aplikasi ini didesain khusus bagi tenaga penjual untuk:</p>
+            <ul>
+                <li><strong>Simulasi Angka Presisi:</strong> Kalkulator leasing akurat (DP Murni, Cicilan, Admin, Asuransi).</li>
+                <li><strong>Buku Prospek Digital (CRM):</strong> Klasifikasikan status klien (Cold, Warm, Hot, Customer).</li>
+                <li><strong>Manajemen Jadwal Cerdas:</strong> Pengingat otomatis untuk follow-up prospek.</li>
+                <li><strong>100% Offline:</strong> Berfungsi tanpa kuota internet, dilengkapi Smart Auto-Backup ke Google Drive.</li>
+            </ul>
+
+            <div class="cta-box">
+                <h3 style="color: var(--primary); margin-bottom: 10px;">🤝 Peluang Kolaborasi B2B (White-Label)</h3>
+                <p style="font-size: 0.9rem; margin-bottom: 15px;">Tertarik menggunakan ekosistem SiMudit untuk internal tim Dealer atau Leasing Anda dengan identitas Merek sendiri?</p>
+                <a href="mailto:hello@purnomosidi.com?subject=Peluang%20Kolaborasi%20Aplikasi%20SiMudit" style="display: inline-block; background: var(--primary); color: white; padding: 10px 20px; text-decoration: none; border-radius: 8px; font-weight: 600;">Hubungi Kami</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Widodo Purnomosidi. All rights reserved.</p>
+        <div class="seo-tags">
+            Simulator kredit | Simulasi kredit | Kalkulator kredit | Hitung cicilan | Kredit mobil | Kredit motor | Kalkulator leasing | Aplikasi hitung cicilan | CRM otomotif
+        </div>
+    </footer>
+
+    <script>
+        // Format input to Rupiah visually
+        function formatRupiah(angka) {
+            let number_string = angka.value.replace(/[^,\d]/g, '').toString();
+            let split = number_string.split(',');
+            let sisa = split[0].length % 3;
+            let rupiah = split[0].substr(0, sisa);
+            let ribuan = split[0].substr(sisa).match(/\d{3}/gi);
+
+            if (ribuan) {
+                let separator = sisa ? '.' : '';
+                rupiah += separator + ribuan.join('.');
+            }
+            rupiah = split[1] != undefined ? rupiah + ',' + split[1] : rupiah;
+            angka.value = rupiah;
+        }
+
+        // Clean Rupiah string to float for calculation
+        function getRawNumber(value) {
+            return parseFloat(value.replace(/\./g, '')) || 0;
+        }
+
+        // Format float back to Rupiah string
+        function toRupiah(number) {
+            return new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR', minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(number);
+        }
+
+        // Main Calculation Logic
+        function calculate() {
+            let harga = getRawNumber(document.getElementById('harga').value);
+            let dpPercent = parseFloat(document.getElementById('dp').value) || 0;
+            let bungaPercent = parseFloat(document.getElementById('bunga').value) || 0;
+            let tenorTahun = parseInt(document.getElementById('tenor').value) || 0;
+
+            if (harga > 0 && tenorTahun > 0) {
+                // 1. Hitung DP Murni
+                let dpRupiah = harga * (dpPercent / 100);
+                
+                // 2. Hitung Pokok Hutang (Plafon)
+                let pokokHutang = harga - dpRupiah;
+                
+                // 3. Hitung Total Bunga selama tenor
+                let totalBunga = pokokHutang * (bungaPercent / 100) * tenorTahun;
+                
+                // 4. Hitung Cicilan Per Bulan
+                let totalHutang = pokokHutang + totalBunga;
+                let cicilanPerBulan = totalHutang / (tenorTahun * 12);
+
+                // Update UI
+                document.getElementById('hasilDP').innerText = toRupiah(dpRupiah);
+                document.getElementById('hasilPokok').innerText = toRupiah(pokokHutang);
+                document.getElementById('hasilBunga').innerText = toRupiah(totalBunga);
+                document.getElementById('hasilCicilan').innerText = toRupiah(cicilanPerBulan);
+            } else {
+                // Reset UI if input is incomplete
+                document.getElementById('hasilDP').innerText = 'Rp 0';
+                document.getElementById('hasilPokok').innerText = 'Rp 0';
+                document.getElementById('hasilBunga').innerText = 'Rp 0';
+                document.getElementById('hasilCicilan').innerText = 'Rp 0';
+            }
+        }
+    </script>
+</body>
+</html>
