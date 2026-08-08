@@ -1,0 +1,42 @@
+[
+  { "nama": "Terios", "type": "X", "category": "Daihatsu", "segment": "SUV", "harga": 248050000 },
+  { "nama": "Terios", "type": "X ADS", "category": "Daihatsu", "segment": "SUV", "harga": 260000000 },
+  { "nama": "Terios", "type": "R", "category": "Daihatsu", "segment": "SUV", "harga": 280950000 },
+  { "nama": "Terios", "type": "R ADS", "category": "Daihatsu", "segment": "SUV", "harga": 290950000 },
+  { "nama": "Terios", "type": "R Custom", "category": "Daihatsu", "segment": "SUV", "harga": 303750000 },
+  { "nama": "Rocky", "type": "1.2 M", "category": "Daihatsu", "segment": "SUV", "harga": 215800000 },
+  { "nama": "Rocky", "type": "1.2 X", "category": "Daihatsu", "segment": "SUV", "harga": 229900000 },
+  { "nama": "Rocky", "type": "1.0 R Turbo", "category": "Daihatsu", "segment": "SUV", "harga": 254150000 },
+  { "nama": "Rocky", "type": "1.0 R Turbo ASA", "category": "Daihatsu", "segment": "SUV", "harga": 280050000 },
+  { "nama": "Rocky", "type": "1.0 R Turbo ASA+", "category": "Daihatsu", "segment": "SUV", "harga": 292550000 },
+
+  { "nama": "Xenia", "type": "1.3 M", "category": "Daihatsu", "segment": "MPV", "harga": 228650000 },
+  { "nama": "Xenia", "type": "1.3 X", "category": "Daihatsu", "segment": "MPV", "harga": 231850000 },
+  { "nama": "Xenia", "type": "1.3 R", "category": "Daihatsu", "segment": "MPV", "harga": 242850000 },
+  { "nama": "Xenia", "type": "1.5 R", "category": "Daihatsu", "segment": "MPV", "harga": 260050000 },
+  { "nama": "Xenia", "type": "1.5 R ASA", "category": "Daihatsu", "segment": "MPV", "harga": 284350000 },
+  { "nama": "Luxio", "type": "D", "category": "Daihatsu", "segment": "MPV", "harga": 244250000 },
+  { "nama": "Luxio", "type": "X", "category": "Daihatsu", "segment": "MPV", "harga": 263450000 },
+
+  { "nama": "Ayla", "type": "1.0 M", "category": "Daihatsu", "segment": "LCGC", "harga": 140200000 },
+  { "nama": "Ayla", "type": "1.0 X", "category": "Daihatsu", "segment": "LCGC", "harga": 153100000 },
+  { "nama": "Ayla", "type": "1.0 X ADS", "category": "Daihatsu", "segment": "LCGC", "harga": 157300000 },
+  { "nama": "Ayla", "type": "1.2 R", "category": "Daihatsu", "segment": "LCGC", "harga": 170200000 },
+  { "nama": "Ayla", "type": "1.2 R ADS", "category": "Daihatsu", "segment": "LCGC", "harga": 174400000 },
+  { "nama": "Sigra", "type": "1.0 D", "category": "Daihatsu", "segment": "LCGC", "harga": 143200000 },
+  { "nama": "Sigra", "type": "1.0 M", "category": "Daihatsu", "segment": "LCGC", "harga": 153800000 },
+  { "nama": "Sigra", "type": "1.2 X", "category": "Daihatsu", "segment": "LCGC", "harga": 161500000 },
+  { "nama": "Sigra", "type": "1.2 X Deluxe", "category": "Daihatsu", "segment": "LCGC", "harga": 167100000 },
+  { "nama": "Sigra", "type": "1.2 R", "category": "Daihatsu", "segment": "LCGC", "harga": 168200000 },
+  { "nama": "Sigra", "type": "1.2 R Deluxe", "category": "Daihatsu", "segment": "LCGC", "harga": 172000000 },
+
+  { "nama": "Sirion", "type": "1.3 X", "category": "Daihatsu", "segment": "Hatchback", "harga": 236350000 },
+  { "nama": "Sirion", "type": "1.3 R", "category": "Daihatsu", "segment": "Hatchback", "harga": 245550000 },
+
+  { "nama": "Gran Max Pick Up", "type": "1.3 PU", "category": "Daihatsu", "segment": "Komersial", "harga": 167050000 },
+  { "nama": "Gran Max Pick Up", "type": "1.5 PU", "category": "Daihatsu", "segment": "Komersial", "harga": 173050000 },
+  { "nama": "Gran Max Minibus", "type": "1.3 Blindvan", "category": "Daihatsu", "segment": "Komersial", "harga": 180400000 },
+  { "nama": "Gran Max Minibus", "type": "1.5 Blindvan", "category": "Daihatsu", "segment": "Komersial", "harga": 195100000 },
+  { "nama": "Gran Max Minibus", "type": "1.3 Minibus", "category": "Daihatsu", "segment": "Komersial", "harga": 212750000 },
+  { "nama": "Gran Max Minibus", "type": "1.5 Minibus", "category": "Daihatsu", "segment": "Komersial", "harga": 233350000 }
+]
