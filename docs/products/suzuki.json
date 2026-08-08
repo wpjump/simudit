@@ -1,0 +1,58 @@
+[
+  { "nama": "Fronx", "type": "GL MT", "category": "Suzuki", "segment": "SUV", "harga": 261500000 },
+  { "nama": "Fronx", "type": "GL AT", "category": "Suzuki", "segment": "SUV", "harga": 275500000 },
+  { "nama": "Fronx", "type": "GX MT", "category": "Suzuki", "segment": "SUV", "harga": 283900000 },
+  { "nama": "Fronx", "type": "GX AT", "category": "Suzuki", "segment": "SUV", "harga": 302200000 },
+  { "nama": "Fronx", "type": "SGX AT", "category": "Suzuki", "segment": "SUV", "harga": 328300000 },
+  { "nama": "Fronx", "type": "SGX AT Two Tone", "category": "Suzuki", "segment": "SUV", "harga": 330300000 },
+
+  { "nama": "Jimny", "type": "3-Door AT Single Tone", "category": "Suzuki", "segment": "SUV", "harga": 470500000 },
+  { "nama": "Jimny", "type": "3-Door AT Two Tone", "category": "Suzuki", "segment": "SUV", "harga": 473500000 },
+  { "nama": "Jimny", "type": "5-Door MT Single Tone", "category": "Suzuki", "segment": "SUV", "harga": 474800000 },
+  { "nama": "Jimny", "type": "5-Door MT Two Tone", "category": "Suzuki", "segment": "SUV", "harga": 477800000 },
+  { "nama": "Jimny", "type": "5-Door AT Single Tone", "category": "Suzuki", "segment": "SUV", "harga": 488500000 },
+  { "nama": "Jimny", "type": "5-Door AT Two Tone", "category": "Suzuki", "segment": "SUV", "harga": 491500000 },
+
+  { "nama": "XL7 Hybrid", "type": "Beta MT", "category": "Suzuki", "segment": "MPV", "harga": 292900000 },
+  { "nama": "XL7 Hybrid", "type": "Beta AT", "category": "Suzuki", "segment": "MPV", "harga": 304100000 },
+  { "nama": "XL7 Hybrid", "type": "Alpha MT", "category": "Suzuki", "segment": "MPV", "harga": 304100000 },
+  { "nama": "XL7 Hybrid", "type": "Alpha MT Two Tone", "category": "Suzuki", "segment": "MPV", "harga": 306100000 },
+  { "nama": "XL7 Hybrid", "type": "Alpha AT", "category": "Suzuki", "segment": "MPV", "harga": 315300000 },
+  { "nama": "XL7 Hybrid", "type": "Alpha AT Two Tone", "category": "Suzuki", "segment": "MPV", "harga": 317300000 },
+  { "nama": "XL7 Hybrid", "type": "Alpha AT Kuro", "category": "Suzuki", "segment": "MPV", "harga": 319300000 },
+  { "nama": "XL7 Hybrid", "type": "Alpha AT Kuro Two Tone", "category": "Suzuki", "segment": "MPV", "harga": 321300000 },
+
+  { "nama": "XL7", "type": "Zeta MT", "category": "Suzuki", "segment": "SUV", "harga": 265500000 },
+  { "nama": "XL7", "type": "Zeta AT", "category": "Suzuki", "segment": "SUV", "harga": 276500000 },
+
+  { "nama": "Ertiga Hybrid", "type": "GX MT", "category": "Suzuki", "segment": "MPV", "harga": 274900000 },
+  { "nama": "Ertiga Hybrid", "type": "GX AT", "category": "Suzuki", "segment": "MPV", "harga": 285900000 },
+  { "nama": "Ertiga Hybrid", "type": "Cruise MT", "category": "Suzuki", "segment": "MPV", "harga": 287800000 },
+  { "nama": "Ertiga Hybrid", "type": "Cruise MT Two Tone", "category": "Suzuki", "segment": "MPV", "harga": 289800000 },
+  { "nama": "Ertiga Hybrid", "type": "Cruise AT", "category": "Suzuki", "segment": "MPV", "harga": 298800000 },
+  { "nama": "Ertiga Hybrid", "type": "Cruise AT Two Tone", "category": "Suzuki", "segment": "MPV", "harga": 300800000 },
+
+  { "nama": "Ertiga", "type": "GA MT", "category": "Suzuki", "segment": "MPV", "harga": 236100000 },
+  { "nama": "Ertiga", "type": "GL MT", "category": "Suzuki", "segment": "MPV", "harga": 259700000 },
+  { "nama": "Ertiga", "type": "GL AT", "category": "Suzuki", "segment": "MPV", "harga": 270700000 },
+
+  { "nama": "Carry Pick Up", "type": "Flat Deck STD", "category": "Suzuki", "segment": "Komersial", "harga": 172600000 },
+  { "nama": "Carry Pick Up", "type": "Flat Deck AC-PS", "category": "Suzuki", "segment": "Komersial", "harga": 180600000 },
+  { "nama": "Carry Pick Up", "type": "Wide Deck STD", "category": "Suzuki", "segment": "Komersial", "harga": 173700000 },
+  { "nama": "Carry Pick Up", "type": "Wide Deck AC-PS", "category": "Suzuki", "segment": "Komersial", "harga": 181500000 },
+
+  { "nama": "APV", "type": "Blind Van", "category": "Suzuki", "segment": "Komersial", "harga": 185500000 },
+  { "nama": "APV", "type": "GE", "category": "Suzuki", "segment": "MPV", "harga": 227000000 },
+  { "nama": "APV Arena", "type": "GL", "category": "Suzuki", "segment": "MPV", "harga": 235200000 },
+  { "nama": "APV Arena", "type": "GX", "category": "Suzuki", "segment": "MPV", "harga": 249300000 },
+  { "nama": "APV Arena", "type": "SGX", "category": "Suzuki", "segment": "MPV", "harga": 252600000 },
+
+  { "nama": "S-Presso", "type": "MT", "category": "Suzuki", "segment": "Hatchback", "harga": 173100000 },
+  { "nama": "S-Presso", "type": "AGS", "category": "Suzuki", "segment": "Hatchback", "harga": 184600000 },
+
+  { "nama": "Grand Vitara", "type": "GX MC", "category": "Suzuki", "segment": "SUV", "harga": 416000000 },
+  { "nama": "Grand Vitara", "type": "GX MC Two Tone", "category": "Suzuki", "segment": "SUV", "harga": 419000000 },
+
+  { "nama": "e-Vitara", "type": "GLX Single Tone", "category": "Suzuki", "segment": "SUV", "harga": 755000000 },
+  { "nama": "e-Vitara", "type": "GLX Two Tone", "category": "Suzuki", "segment": "SUV", "harga": 758000000 }
+]
