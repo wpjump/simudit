@@ -1,0 +1,18 @@
+[
+  { "nama": "Colt Diesel FE", "type": "FE 71 (110 PS)", "category": "Mitsubishi Fuso", "segment": "Truk Ringan", "harga": 390000000 },
+  { "nama": "Colt Diesel FE", "type": "FE 73 (125 PS)", "category": "Mitsubishi Fuso", "segment": "Truk Ringan", "harga": 415000000 },
+  { "nama": "Colt Diesel FE", "type": "FE 74 (125 PS, long chassis)", "category": "Mitsubishi Fuso", "segment": "Truk Ringan", "harga": 435000000 },
+  { "nama": "Canter", "type": "FE 84G (136 PS)", "category": "Mitsubishi Fuso", "segment": "Truk Ringan", "harga": 485000000 },
+  { "nama": "Canter", "type": "FE 84L (long chassis)", "category": "Mitsubishi Fuso", "segment": "Truk Ringan", "harga": 510000000 },
+  { "nama": "Canter", "type": "FE 85 (150 PS)", "category": "Mitsubishi Fuso", "segment": "Truk Ringan", "harga": 545000000 },
+  { "nama": "Fighter X", "type": "FM 65F (6x2)", "category": "Mitsubishi Fuso", "segment": "Truk Sedang", "harga": 980000000 },
+  { "nama": "Fighter X", "type": "FN 61F (6x4)", "category": "Mitsubishi Fuso", "segment": "Truk Sedang", "harga": 1120000000 },
+  { "nama": "Fighter X", "type": "FN 62F HD (heavy duty)", "category": "Mitsubishi Fuso", "segment": "Truk Sedang", "harga": 1250000000 },
+  { "nama": "Fuso Tractor Head", "type": "4x2", "category": "Mitsubishi Fuso", "segment": "Truk Berat", "harga": 1750000000 },
+  { "nama": "Fuso Tractor Head", "type": "6x4", "category": "Mitsubishi Fuso", "segment": "Truk Berat", "harga": 2050000000 },
+  { "nama": "Fuso Heavy Duty", "type": "6x4 Dump Truck", "category": "Mitsubishi Fuso", "segment": "Truk Berat", "harga": 2250000000 },
+  { "nama": "Fuso Heavy Duty", "type": "8x4 Dump Truck", "category": "Mitsubishi Fuso", "segment": "Truk Berat", "harga": 2650000000 },
+  { "nama": "Fuso Bus Chassis", "type": "FE 84 (medium bus)", "category": "Mitsubishi Fuso", "segment": "Bus", "harga": 720000000 },
+  { "nama": "Fuso Bus Chassis", "type": "Fighter (big bus)", "category": "Mitsubishi Fuso", "segment": "Bus", "harga": 1350000000 },
+  { "nama": "Fuso Bus Chassis", "type": "High Power (big bus)", "category": "Mitsubishi Fuso", "segment": "Bus", "harga": 1650000000 }
+]
