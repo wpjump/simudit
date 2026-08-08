@@ -1,0 +1,10 @@
+[
+  {
+    "name": "TAF Paket Spektakuler",
+    "adm_1": 2000000, "bunga_1": 3.15, "allrisk_1": 2.95, "tlo_1": 1.05, "kom_1": 2.35,
+    "adm_2": 2100000, "bunga_2": 3.95, "allrisk_2": 2.95, "tlo_2": 1.05, "kom_2": 2.35,
+    "adm_3": 2200000, "bunga_3": 4.75, "allrisk_3": 2.95, "tlo_3": 1.05, "kom_3": 2.35,
+    "adm_4": 2300000, "bunga_4": 5.65, "allrisk_4": 2.95, "tlo_4": 1.05, "kom_4": 2.35,
+    "adm_5": 2400000, "bunga_5": 6.75, "allrisk_5": 2.95, "tlo_5": 1.05, "kom_5": 2.35
+  }
+]
