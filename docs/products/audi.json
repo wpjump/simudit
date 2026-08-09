@@ -1,0 +1,20 @@
+[
+  { "nama": "A4", "type": "2.0 TFSI", "category": "Audi", "segment": "Sedan", "harga": 1350000000 },
+  { "nama": "A5", "type": "Coupe 2.0 TFSI Quattro", "category": "Audi", "segment": "Coupe", "harga": 1431000000 },
+  { "nama": "A5 Sportback", "type": "2.0 TFSI", "category": "Audi", "segment": "Sportback", "harga": 1425000000 },
+  { "nama": "A6", "type": "1.8 TFSI", "category": "Audi", "segment": "Sedan", "harga": 1258000000 },
+  { "nama": "A6", "type": "2.0 TFSI", "category": "Audi", "segment": "Sedan", "harga": 1550000000 },
+  { "nama": "A8 L", "type": "3.0 TFSI Quattro", "category": "Audi", "segment": "Sedan", "harga": 3216000000 },
+  { "nama": "S3", "type": "2.0 TFSI", "category": "Audi", "segment": "Sedan", "harga": 1698000000 },
+  { "nama": "RS5", "type": "2.9 TFSI Quattro", "category": "Audi", "segment": "Coupe", "harga": 2587000000 },
+
+  { "nama": "Q3", "type": "1.4 TFSI", "category": "Audi", "segment": "Crossover", "harga": 1100000000 },
+  { "nama": "Q3 Sportback", "type": "1.4 TFSI", "category": "Audi", "segment": "SUV", "harga": 1275000000 },
+  { "nama": "Q5", "type": "S Line 2.0 TFSI Quattro", "category": "Audi", "segment": "SUV", "harga": 1589000000 },
+  { "nama": "Q5", "type": "2.0 TFSI Quattro", "category": "Audi", "segment": "SUV", "harga": 1598000000 },
+  { "nama": "Q7", "type": "3.0 TFSI Quattro", "category": "Audi", "segment": "Crossover", "harga": 2600000000 },
+  { "nama": "Q8", "type": "3.0L TFSI Quattro", "category": "Audi", "segment": "SUV", "harga": 2580000000 },
+  { "nama": "Q8", "type": "3.0L TFSI Quattro Velg R21", "category": "Audi", "segment": "SUV", "harga": 2700000000 },
+  { "nama": "Q8", "type": "3.0L TFSI Quattro Velg R22 Black Edition", "category": "Audi", "segment": "SUV", "harga": 2800000000 },
+  { "nama": "Q8", "type": "3.0 TFSI Quattro (RS look)", "category": "Audi", "segment": "SUV", "harga": 2830000000 }
+]
