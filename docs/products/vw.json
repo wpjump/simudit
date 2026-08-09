@@ -1,0 +1,5 @@
+[
+  { "nama": "Polo", "type": "1.2 TSI", "category": "Volkswagen", "harga": 315000000 },
+  { "nama": "T-Cross", "type": "1.0 TSI", "category": "Volkswagen", "harga": 488000000 },
+  { "nama": "Tiguan", "type": "Allspace 1.4 TSI", "category": "Volkswagen", "harga": 655000000 }
+]
