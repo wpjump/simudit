@@ -1,0 +1,20 @@
+[
+  { "nama": "Traga", "type": "Pick Up FD (Flat Deck)", "category": "Isuzu", "segment": "Komersial", "harga": 283000000 },
+  { "nama": "Traga", "type": "Pick Up BD (Box Deck)", "category": "Isuzu", "segment": "Komersial", "harga": 286000000 },
+  { "nama": "Traga", "type": "Blind Van", "category": "Isuzu", "segment": "Komersial", "harga": 315000000 },
+
+  { "nama": "D-Max", "type": "Single Cabin 4x4 MT", "category": "Isuzu", "segment": "Komersial", "harga": 420000000 },
+  { "nama": "D-Max", "type": "Double Cabin 4x4 MT", "category": "Isuzu", "segment": "Komersial", "harga": 485000000 },
+  { "nama": "D-Max", "type": "Double Cabin 4x4 AT", "category": "Isuzu", "segment": "Komersial", "harga": 520000000 },
+
+  { "nama": "MU-X", "type": "4x2 MT", "category": "Isuzu", "segment": "SUV", "harga": 592000000 },
+  { "nama": "MU-X", "type": "4x2 AT", "category": "Isuzu", "segment": "SUV", "harga": 615000000 },
+  { "nama": "MU-X", "type": "4x4 AT", "category": "Isuzu", "segment": "SUV", "harga": 675000000 },
+
+  { "nama": "Elf", "type": "NLR 55B (Short)", "category": "Isuzu", "segment": "Komersial", "harga": 375000000 },
+  { "nama": "Elf", "type": "NLR 55T (Long)", "category": "Isuzu", "segment": "Komersial", "harga": 405000000 },
+  { "nama": "Elf", "type": "NMR 71 (Medium)", "category": "Isuzu", "segment": "Komersial", "harga": 470000000 },
+
+  { "nama": "Giga", "type": "FTR 34", "category": "Isuzu", "segment": "Komersial", "harga": 780000000 },
+  { "nama": "Giga", "type": "FVZ (Heavy Duty)", "category": "Isuzu", "segment": "Komersial", "harga": 1050000000 }
+]
