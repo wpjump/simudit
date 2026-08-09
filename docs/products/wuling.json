@@ -1,0 +1,49 @@
+[
+  { "nama": "Formo", "type": "1.2 BV", "category": "Wuling", "segment": "Komersial", "harga": 155700000 },
+  { "nama": "Formo S", "type": "1.2 Standard 5-Seat", "category": "Wuling", "segment": "MPV", "harga": 167800000 },
+  { "nama": "Formo S", "type": "1.2 Standard 8-Seat", "category": "Wuling", "segment": "MPV", "harga": 172600000 },
+  { "nama": "Formo Max", "type": "varian dasar", "category": "Wuling", "segment": "Komersial", "harga": 168000000 },
+  { "nama": "Formo Max", "type": "varian tertinggi", "category": "Wuling", "segment": "Komersial", "harga": 176000000 },
+
+  { "nama": "Confero", "type": "1.5 MT Double Blower", "category": "Wuling", "segment": "MPV", "harga": 188300000 },
+  { "nama": "Confero S", "type": "C", "category": "Wuling", "segment": "MPV", "harga": 210700000 },
+  { "nama": "Confero S", "type": "ACT", "category": "Wuling", "segment": "MPV", "harga": 235300000 },
+
+  { "nama": "Cortez S", "type": "Turbo (varian dasar)", "category": "Wuling", "segment": "MPV", "harga": 266500000 },
+  { "nama": "Cortez S", "type": "Turbo (varian tertinggi)", "category": "Wuling", "segment": "MPV", "harga": 288200000 },
+  { "nama": "Cortez", "type": "1.5T Lux CE", "category": "Wuling", "segment": "MPV", "harga": 307300000 },
+  { "nama": "Cortez", "type": "1.5T Lux EX", "category": "Wuling", "segment": "MPV", "harga": 345650000 },
+
+  { "nama": "Darion EV", "type": "CE", "category": "Wuling", "segment": "MPV Listrik", "harga": 399000000 },
+  { "nama": "Darion EV", "type": "EX", "category": "Wuling", "segment": "MPV Listrik", "harga": 459000000 },
+  { "nama": "Darion PHEV", "type": "CE", "category": "Wuling", "segment": "MPV", "harga": 449000000 },
+  { "nama": "Darion PHEV", "type": "EX", "category": "Wuling", "segment": "MPV", "harga": 499000000 },
+
+  { "nama": "Cloud EV", "type": "Lite", "category": "Wuling", "segment": "Crossover Listrik", "harga": 415000000 },
+  { "nama": "Cloud EV", "type": "Pro", "category": "Wuling", "segment": "Crossover Listrik", "harga": 443000000 },
+
+  { "nama": "Alvez", "type": "SE", "category": "Wuling", "segment": "SUV", "harga": 217000000 },
+  { "nama": "Alvez", "type": "CE", "category": "Wuling", "segment": "SUV", "harga": 263000000 },
+  { "nama": "Alvez", "type": "EX", "category": "Wuling", "segment": "SUV", "harga": 303000000 },
+
+  { "nama": "Almaz RS", "type": "1.5L EX", "category": "Wuling", "segment": "SUV", "harga": 388500000 },
+  { "nama": "Almaz RS Pro", "type": "Bensin", "category": "Wuling", "segment": "SUV", "harga": 405000000 },
+  { "nama": "Almaz RS Pro", "type": "Hybrid (dual engine)", "category": "Wuling", "segment": "SUV", "harga": 447200000 },
+  { "nama": "Almaz Hybrid", "type": "2.0L", "category": "Wuling", "segment": "SUV", "harga": 479000000 },
+
+  { "nama": "Air ev", "type": "Lite 200", "category": "Wuling", "segment": "Hatchback Listrik", "harga": 214000000 },
+  { "nama": "Air ev", "type": "Lite 300", "category": "Wuling", "segment": "Hatchback Listrik", "harga": 251000000 },
+  { "nama": "Air ev", "type": "Pro", "category": "Wuling", "segment": "Hatchback Listrik", "harga": 307500000 },
+
+  { "nama": "Binguo EV", "type": "Lite", "category": "Wuling", "segment": "Hatchback Listrik", "harga": 318000000 },
+  { "nama": "Binguo EV", "type": "Pro", "category": "Wuling", "segment": "Hatchback Listrik", "harga": 363000000 },
+
+  { "nama": "Mitra EV", "type": "Blind Van", "category": "Wuling", "segment": "Komersial", "harga": 328000000 },
+  { "nama": "Mitra EV", "type": "Minibus", "category": "Wuling", "segment": "Komersial", "harga": 348000000 },
+  { "nama": "Mitra EV", "type": "Premium Range", "category": "Wuling", "segment": "Komersial", "harga": 378000000 },
+
+  { "nama": "Eksion EV", "type": "varian dasar", "category": "Wuling", "segment": "SUV Listrik", "harga": 389000000 },
+  { "nama": "Eksion EV", "type": "varian tertinggi", "category": "Wuling", "segment": "SUV Listrik", "harga": 459000000 },
+  { "nama": "Eksion PHEV", "type": "varian dasar", "category": "Wuling", "segment": "SUV", "harga": 449000000 },
+  { "nama": "Eksion PHEV", "type": "varian tertinggi", "category": "Wuling", "segment": "SUV", "harga": 499000000 }
+]
