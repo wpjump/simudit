@@ -1,0 +1,7 @@
+[
+  { "nama": "Super Cab", "type": "1.5L Petrol", "category": "DFSK", "harga": 153500000 },
+  { "nama": "Gelora", "type": "Minibus", "category": "DFSK", "harga": 201900000 },
+  { "nama": "Gelora E", "type": "Blind Van EV", "category": "DFSK", "harga": 350000000 },
+  { "nama": "Glory 560", "type": "1.5T CVT", "category": "DFSK", "harga": 275900000 },
+  { "nama": "Glory i-Auto", "type": "1.5T CVT", "category": "DFSK", "harga": 365200000 }
+]
