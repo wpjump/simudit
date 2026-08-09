@@ -1,0 +1,7 @@
+[
+  { "nama": "UX", "type": "250h Luxury", "category": "Lexus", "harga": 1300000000 },
+  { "nama": "NX", "type": "350h Luxury", "category": "Lexus", "harga": 1400000000 },
+  { "nama": "RX", "type": "350 Luxury", "category": "Lexus", "harga": 1700000000 },
+  { "nama": "RX", "type": "450h+ Luxury", "category": "Lexus", "harga": 1900000000 },
+  { "nama": "LM", "type": "500h 7-Seater", "category": "Lexus", "harga": 3900000000 }
+]
