@@ -1,0 +1,20 @@
+[
+  { "nama": "Seltos", "type": "Trendy", "category": "KIA", "segment": "SUV", "harga": 359000000 },
+  { "nama": "Seltos", "type": "Prestige + ADAS", "category": "KIA", "segment": "SUV", "harga": 417000000 },
+  { "nama": "Seltos", "type": "GT Line", "category": "KIA", "segment": "SUV", "harga": 469000000 },
+
+  { "nama": "Sonet", "type": "Trendy", "category": "KIA", "segment": "SUV", "harga": 263000000 },
+  { "nama": "Sonet", "type": "Motion", "category": "KIA", "segment": "SUV", "harga": 288000000 },
+  { "nama": "Sonet", "type": "Signature", "category": "KIA", "segment": "SUV", "harga": 313000000 },
+
+  { "nama": "Carens", "type": "M/T", "category": "KIA", "segment": "MPV", "harga": 269000000 },
+  { "nama": "Carens", "type": "Trendy", "category": "KIA", "segment": "MPV", "harga": 299000000 },
+  { "nama": "Carens", "type": "Motion", "category": "KIA", "segment": "MPV", "harga": 339000000 },
+  { "nama": "Carens", "type": "Signature", "category": "KIA", "segment": "MPV", "harga": 379000000 },
+
+  { "nama": "Carnival", "type": "Premiere 11s", "category": "KIA", "segment": "MPV", "harga": 1039000000 },
+  { "nama": "Carnival", "type": "Premiere 7s", "category": "KIA", "segment": "MPV", "harga": 1179000000 },
+  { "nama": "Carnival", "type": "Hybrid", "category": "KIA", "segment": "MPV", "harga": 1398000000 },
+
+  { "nama": "EV9", "type": "GT Line", "category": "KIA", "segment": "SUV Listrik", "harga": 1985000000 }
+]
