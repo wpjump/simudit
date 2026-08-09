@@ -1,0 +1,9 @@
+[
+  { "nama": "MG ZS", "type": "Activate", "category": "MG (Morris Garage)", "harga": 315800000 },
+  { "nama": "MG ZS", "type": "Magnify", "category": "MG (Morris Garage)", "harga": 355800000 },
+  { "nama": "MG 5 GT", "type": "Activate", "category": "MG (Morris Garage)", "harga": 347900000 },
+  { "nama": "MG 5 GT", "type": "Magnify", "category": "MG (Morris Garage)", "harga": 407900000 },
+  { "nama": "MG 4 EV", "type": "Ignite", "category": "MG (Morris Garage)", "harga": 423000000 },
+  { "nama": "MG 4 EV", "type": "Magnify", "category": "MG (Morris Garage)", "harga": 433000000 },
+  { "nama": "MG ZS EV", "type": "Magnify", "category": "MG (Morris Garage)", "harga": 453000000 }
+]
