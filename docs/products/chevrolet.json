@@ -1,0 +1,6 @@
+[
+  { "nama": "Spark", "type": "1.4L Premier", "category": "Chevrolet", "harga": 200500000 },
+  { "nama": "Trax", "type": "1.4L Premier", "category": "Chevrolet", "harga": 318500000 },
+  { "nama": "Trailblazer", "type": "2.5L Premier", "category": "Chevrolet", "harga": 480500000 },
+  { "nama": "Colorado", "type": "2.8L High Country", "category": "Chevrolet", "harga": 549500000 }
+]
