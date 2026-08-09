@@ -1,0 +1,31 @@
+[
+  { "nama": "Mazda2", "type": "Hatchback", "category": "Mazda", "segment": "Hatchback", "harga": 371100000 },
+  { "nama": "Mazda2", "type": "Sedan", "category": "Mazda", "segment": "Sedan", "harga": 371100000 },
+  { "nama": "Mazda3", "type": "Hatchback", "category": "Mazda", "segment": "Hatchback", "harga": 588800000 },
+  { "nama": "Mazda3", "type": "Sedan", "category": "Mazda", "segment": "Sedan", "harga": 588800000 },
+
+  { "nama": "CX-3", "type": "Touring", "category": "Mazda", "segment": "SUV", "harga": 402500000 },
+  { "nama": "CX-3", "type": "Kuro", "category": "Mazda", "segment": "SUV", "harga": 421200000 },
+  { "nama": "CX-3", "type": "Pro AutoExe", "category": "Mazda", "segment": "SUV", "harga": 571600000 },
+
+  { "nama": "CX-30", "type": "CKD (rakitan lokal)", "category": "Mazda", "segment": "SUV", "harga": 499000000 },
+
+  { "nama": "CX-5", "type": "Sport Edition (Gen-3)", "category": "Mazda", "segment": "SUV", "harga": 599000000 },
+  { "nama": "CX-5", "type": "Kuro Edition (Gen-3)", "category": "Mazda", "segment": "SUV", "harga": 689900000 },
+
+  { "nama": "CX-8", "type": "Standard", "category": "Mazda", "segment": "SUV", "harga": 828800000 },
+
+  { "nama": "CX-60", "type": "Sport", "category": "Mazda", "segment": "SUV", "harga": 720000000 },
+  { "nama": "CX-60", "type": "Pro", "category": "Mazda", "segment": "SUV", "harga": 830000000 },
+  { "nama": "CX-60", "type": "Elite", "category": "Mazda", "segment": "SUV", "harga": 1188800000 },
+  { "nama": "CX-60", "type": "Kuro", "category": "Mazda", "segment": "SUV", "harga": 1188800000 },
+
+  { "nama": "CX-80", "type": "Elite", "category": "Mazda", "segment": "SUV", "harga": 1199900000 },
+  { "nama": "CX-80", "type": "Kuro", "category": "Mazda", "segment": "SUV", "harga": 1199900000 },
+
+  { "nama": "MX-5", "type": "RF MT", "category": "Mazda", "segment": "Roadster", "harga": 954800000 },
+  { "nama": "MX-5", "type": "RF AT", "category": "Mazda", "segment": "Roadster", "harga": 964800000 },
+
+  { "nama": "MX-30", "type": "Standard", "category": "Mazda", "segment": "SUV Listrik", "harga": 860000000 },
+  { "nama": "6e Fastback", "type": "BEV", "category": "Mazda", "segment": "Sedan Listrik", "harga": 850000000 }
+]
