@@ -1,0 +1,22 @@
+[
+  { "nama": "X-Trail", "type": "e-POWER with e-4ORCE AT", "category": "Nissan", "segment": "SUV", "harga": 795000000 },
+
+  { "nama": "Serena", "type": "e-POWER Highway Star (4x2) AT", "category": "Nissan", "segment": "MPV", "harga": 655000000 },
+  { "nama": "Serena", "type": "e-POWER Two Tone AT", "category": "Nissan", "segment": "MPV", "harga": 649500000 },
+  { "nama": "Serena", "type": "Highway Star One Tone AT (non e-POWER)", "category": "Nissan", "segment": "MPV", "harga": 560800000 },
+  { "nama": "Serena", "type": "Highway Star Two Tone AT (non e-POWER)", "category": "Nissan", "segment": "MPV", "harga": 563300000 },
+
+  { "nama": "Kicks e-Power", "type": "VL One Tone", "category": "Nissan", "segment": "SUV", "harga": 519000000 },
+  { "nama": "Kicks e-Power", "type": "VL Two Tone", "category": "Nissan", "segment": "SUV", "harga": 524600000 },
+
+  { "nama": "Terra", "type": "2.5 VL 4WD 7AT", "category": "Nissan", "segment": "SUV", "harga": 779900000 },
+
+  { "nama": "Magnite", "type": "Upper CVT", "category": "Nissan", "segment": "SUV", "harga": 300000000 },
+  { "nama": "Magnite", "type": "Premium CVT", "category": "Nissan", "segment": "SUV", "harga": 310500000 },
+  { "nama": "Magnite", "type": "Premium CVT Two Tone", "category": "Nissan", "segment": "SUV", "harga": 312500000 },
+
+  { "nama": "Livina", "type": "VL AT", "category": "Nissan", "segment": "MPV", "harga": 329500000 },
+
+  { "nama": "Leaf", "type": "One Tone", "category": "Nissan", "segment": "EV", "harga": 744000000 },
+  { "nama": "Leaf", "type": "Two Tone", "category": "Nissan", "segment": "EV", "harga": 748000000 }
+]
