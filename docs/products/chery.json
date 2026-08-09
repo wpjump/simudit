@@ -1,0 +1,11 @@
+[
+  { "nama": "Tiggo 5X", "type": "Classic", "category": "Chery", "harga": 239000000 },
+  { "nama": "Tiggo 5X", "type": "Champion", "category": "Chery", "harga": 269000000 },
+  { "nama": "Omoda 5", "type": "Z", "category": "Chery", "harga": 334800000 },
+  { "nama": "Omoda 5", "type": "RZ", "category": "Chery", "harga": 404800000 },
+  { "nama": "Omoda E5", "type": "Pure", "category": "Chery", "harga": 419800000 },
+  { "nama": "Omoda E5", "type": "Ultimate", "category": "Chery", "harga": 488800000 },
+  { "nama": "Tiggo 7 Pro", "type": "Comfort", "category": "Chery", "harga": 369500000 },
+  { "nama": "Tiggo 8", "type": "Comfort", "category": "Chery", "harga": 349500000 },
+  { "nama": "Tiggo 8 Pro", "type": "Luxury", "category": "Chery", "harga": 528500000 }
+]
