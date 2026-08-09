@@ -1,0 +1,15 @@
+[
+  { "nama": "Ranger", "type": "2.0 XL Base DC 4x4 6MT", "category": "Ford", "segment": "Komersial", "harga": 551000000 },
+  { "nama": "Ranger", "type": "2.0 XLT DC 4x4 10AT", "category": "Ford", "segment": "Komersial", "harga": 709000000 },
+  { "nama": "Ranger", "type": "2.0 Wildtrak DC 4x4 10AT", "category": "Ford", "segment": "Komersial", "harga": 860000000 },
+  { "nama": "Ranger", "type": "Sport 2.0L V4 Turbo Diesel", "category": "Ford", "segment": "Komersial", "harga": 759000000 },
+  { "nama": "Ranger", "type": "Wildtrak 3.0L V6 Turbo Diesel", "category": "Ford", "segment": "Komersial", "harga": 979000000 },
+  { "nama": "Ranger", "type": "Platinum 3.0L V6 Turbo Diesel", "category": "Ford", "segment": "Komersial", "harga": 1129000000 },
+
+  { "nama": "Everest", "type": "2.0L Single Turbo Sport 4x2 6AT", "category": "Ford", "segment": "SUV", "harga": 839000000 },
+  { "nama": "Everest", "type": "2.0 XLT 4x4 10AT", "category": "Ford", "segment": "SUV", "harga": 943500000 },
+  { "nama": "Everest", "type": "2.0 Titanium 4x4 10AT", "category": "Ford", "segment": "SUV", "harga": 1069000000 },
+  { "nama": "Everest", "type": "Platinum 3.0L V6 Turbo Diesel", "category": "Ford", "segment": "SUV", "harga": 1295000000 },
+
+  { "nama": "Mustang", "type": "GT 5.0 Convertible (CBU/Inden)", "category": "Ford", "segment": "Sport", "harga": 3400000000 }
+]
