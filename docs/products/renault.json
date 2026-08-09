@@ -1,0 +1,7 @@
+[
+  { "nama": "Kwid", "type": "Climber MT", "category": "Renault", "harga": 161000000 },
+  { "nama": "Kwid", "type": "Climber AMT", "category": "Renault", "harga": 171000000 },
+  { "nama": "Triber", "type": "RXZ MT", "category": "Renault", "harga": 187900000 },
+  { "nama": "Triber", "type": "RXZ AMT", "category": "Renault", "harga": 192900000 },
+  { "nama": "Kiger", "type": "RXZ CVT", "category": "Renault", "harga": 295000000 }
+]
