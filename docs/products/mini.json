@@ -1,0 +1,7 @@
+[
+  { "nama": "Cooper 3-Door", "type": "Standard", "category": "Mini", "harga": 900000000 },
+  { "nama": "Cooper 3-Door", "type": "S", "category": "Mini", "harga": 1050000000 },
+  { "nama": "Cooper 5-Door", "type": "S", "category": "Mini", "harga": 1090000000 },
+  { "nama": "Countryman", "type": "Cooper", "category": "Mini", "harga": 980000000 },
+  { "nama": "Countryman", "type": "Cooper S", "category": "Mini", "harga": 1150000000 }
+]
