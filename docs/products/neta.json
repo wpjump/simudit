@@ -1,0 +1,6 @@
+[
+  { "nama": "Neta V-II", "type": "Standard", "category": "Neta", "harga": 299000000 },
+  { "nama": "Neta V", "type": "Standard", "category": "Neta", "harga": 317000000 },
+  { "nama": "Neta X", "type": "Elite", "category": "Neta", "harga": 428000000 },
+  { "nama": "Neta X", "type": "Supreme", "category": "Neta", "harga": 448000000 }
+]
