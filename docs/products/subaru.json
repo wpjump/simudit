@@ -1,0 +1,7 @@
+[
+  { "nama": "Crosstrek", "type": "2.0i-S EyeSight", "category": "Subaru", "harga": 549500000 },
+  { "nama": "Forester", "type": "2.0i-L", "category": "Subaru", "harga": 659500000 },
+  { "nama": "Forester", "type": "2.0i-S EyeSight", "category": "Subaru", "harga": 739500000 },
+  { "nama": "BRZ", "type": "MT", "category": "Subaru", "harga": 845000000 },
+  { "nama": "BRZ", "type": "AT EyeSight", "category": "Subaru", "harga": 870000000 }
+]
