@@ -1,0 +1,5 @@
+[
+  { "nama": "2008", "type": "Allure", "category": "Peugeot", "harga": 535000000 },
+  { "nama": "3008", "type": "Allure Plus", "category": "Peugeot", "harga": 660000000 },
+  { "nama": "5008", "type": "Allure Plus", "category": "Peugeot", "harga": 715000000 }
+]
