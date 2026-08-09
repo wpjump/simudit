@@ -1,0 +1,8 @@
+[
+  { "nama": "A-Class", "type": "A 200 Progressive Line", "category": "Mercedes-Benz", "harga": 900000000 },
+  { "nama": "C-Class", "type": "C 200 Avantgarde Line", "category": "Mercedes-Benz", "harga": 1060000000 },
+  { "nama": "C-Class", "type": "C 300 AMG Line", "category": "Mercedes-Benz", "harga": 1250000000 },
+  { "nama": "E-Class", "type": "E 200 Avantgarde Line", "category": "Mercedes-Benz", "harga": 1300000000 },
+  { "nama": "GLA", "type": "GLA 200 AMG Line", "category": "Mercedes-Benz", "harga": 950000000 },
+  { "nama": "GLC", "type": "GLC 300 AMG Line", "category": "Mercedes-Benz", "harga": 1400000000 }
+]
