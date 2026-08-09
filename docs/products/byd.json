@@ -1,0 +1,11 @@
+[
+  { "nama": "Dolphin", "type": "Dynamic Standard Range", "category": "BYD", "harga": 365000000 },
+  { "nama": "Dolphin", "type": "Premium Extended Range", "category": "BYD", "harga": 425000000 },
+  { "nama": "Atto 3", "type": "Advanced Standard Range", "category": "BYD", "harga": 465000000 },
+  { "nama": "Atto 3", "type": "Superior Extended Range", "category": "BYD", "harga": 515000000 },
+  { "nama": "Seal", "type": "Premium Variant", "category": "BYD", "harga": 629000000 },
+  { "nama": "Seal", "type": "Performance AWD", "category": "BYD", "harga": 719000000 },
+  { "nama": "M6", "type": "Standard 7-Seater", "category": "BYD", "harga": 379000000 },
+  { "nama": "M6", "type": "Superior 7-Seater", "category": "BYD", "harga": 419000000 },
+  { "nama": "M6", "type": "Superior Captain Seat", "category": "BYD", "harga": 429000000 }
+]
