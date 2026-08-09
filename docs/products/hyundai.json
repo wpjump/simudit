@@ -1,0 +1,68 @@
+[
+  { "nama": "IONIQ 9", "type": "AT", "category": "Hyundai", "segment": "SUV Listrik", "harga": 1490000000 },
+
+  { "nama": "Stargazer Cartenz", "type": "Trend MT", "category": "Hyundai", "segment": "MPV", "harga": 241400000 },
+  { "nama": "Stargazer Cartenz", "type": "Trend IVT", "category": "Hyundai", "segment": "MPV", "harga": 256400000 },
+  { "nama": "Stargazer Cartenz", "type": "Style IVT", "category": "Hyundai", "segment": "MPV", "harga": 271200000 },
+  { "nama": "Stargazer Cartenz", "type": "Smart Non HSS IVT", "category": "Hyundai", "segment": "MPV", "harga": 285000000 },
+  { "nama": "Stargazer Cartenz", "type": "Smart HSS IVT", "category": "Hyundai", "segment": "MPV", "harga": 295000000 },
+  { "nama": "Stargazer Cartenz", "type": "Prime Non HSS IVT", "category": "Hyundai", "segment": "MPV", "harga": 308000000 },
+  { "nama": "Stargazer Cartenz", "type": "Prime HSS IVT", "category": "Hyundai", "segment": "MPV", "harga": 318000000 },
+
+  { "nama": "Stargazer Cartenz X", "type": "Style IVT", "category": "Hyundai", "segment": "MPV", "harga": 350000000 },
+  { "nama": "Stargazer Cartenz X", "type": "Prime IVT", "category": "Hyundai", "segment": "MPV", "harga": 385000000 },
+
+  { "nama": "Creta", "type": "Active MT", "category": "Hyundai", "segment": "SUV", "harga": 307800000 },
+  { "nama": "Creta", "type": "Trend MT", "category": "Hyundai", "segment": "SUV", "harga": 340600000 },
+  { "nama": "Creta", "type": "Trend AT", "category": "Hyundai", "segment": "SUV", "harga": 361650000 },
+  { "nama": "Creta", "type": "Style AT", "category": "Hyundai", "segment": "SUV", "harga": 407350000 },
+  { "nama": "Creta", "type": "Prime AT", "category": "Hyundai", "segment": "SUV", "harga": 438500000 },
+  { "nama": "Creta", "type": "Alpha AT", "category": "Hyundai", "segment": "SUV", "harga": 455000000 },
+  { "nama": "Creta", "type": "N Line AT", "category": "Hyundai", "segment": "SUV", "harga": 473000000 },
+  { "nama": "Creta", "type": "N Line Turbo AT", "category": "Hyundai", "segment": "SUV", "harga": 521000000 },
+
+  { "nama": "Stargazer", "type": "Active MT", "category": "Hyundai", "segment": "MPV", "harga": 258200000 },
+  { "nama": "Stargazer", "type": "Active IVT", "category": "Hyundai", "segment": "MPV", "harga": 271550000 },
+  { "nama": "Stargazer", "type": "Essential MT", "category": "Hyundai", "segment": "MPV", "harga": 270300000 },
+  { "nama": "Stargazer", "type": "Essential IVT", "category": "Hyundai", "segment": "MPV", "harga": 282000000 },
+  { "nama": "Stargazer", "type": "Essential Tech IVT", "category": "Hyundai", "segment": "MPV", "harga": 302500000 },
+  { "nama": "Stargazer", "type": "Prime IVT", "category": "Hyundai", "segment": "MPV", "harga": 331900000 },
+
+  { "nama": "Palisade Hybrid", "type": "Signature AT", "category": "Hyundai", "segment": "SUV", "harga": 1134000000 },
+  { "nama": "Palisade Hybrid", "type": "Calligraphy AT", "category": "Hyundai", "segment": "SUV", "harga": 1321000000 },
+  { "nama": "Palisade Hybrid", "type": "Calligraphy AWD AT", "category": "Hyundai", "segment": "SUV", "harga": 1408000000 },
+
+  { "nama": "Santa Fe", "type": "Prime 2.5 GDi AT", "category": "Hyundai", "segment": "SUV", "harga": 735800000 },
+  { "nama": "Santa Fe", "type": "Prime 1.6T-GDi Hybrid AT", "category": "Hyundai", "segment": "SUV", "harga": 827400000 },
+  { "nama": "Santa Fe", "type": "Calligraphy 2.5 GDi AT", "category": "Hyundai", "segment": "SUV", "harga": 825300000 },
+  { "nama": "Santa Fe", "type": "Calligraphy 1.6T-GDi Hybrid AT", "category": "Hyundai", "segment": "SUV", "harga": 914700000 },
+  { "nama": "Santa Fe", "type": "XRT Hybrid AT", "category": "Hyundai", "segment": "SUV", "harga": 932400000 },
+
+  { "nama": "Staria", "type": "Signature 7 AT", "category": "Hyundai", "segment": "MPV", "harga": 1095600000 },
+  { "nama": "Staria", "type": "Signature 9 AT", "category": "Hyundai", "segment": "MPV", "harga": 954800000 },
+
+  { "nama": "Palisade Diesel", "type": "D 2.2 Prime AT", "category": "Hyundai", "segment": "SUV", "harga": 943800000 },
+  { "nama": "Palisade Diesel", "type": "D 2.2 Signature AT", "category": "Hyundai", "segment": "SUV", "harga": 1089700000 },
+  { "nama": "Palisade Diesel", "type": "D 2.2 Signature AWD AT", "category": "Hyundai", "segment": "SUV", "harga": 1202900000 },
+  { "nama": "Palisade Diesel", "type": "D 2.2 Signature XRT AT", "category": "Hyundai", "segment": "SUV", "harga": 1118600000 },
+  { "nama": "Palisade Diesel", "type": "D 2.2 Signature AWD XRT AT", "category": "Hyundai", "segment": "SUV", "harga": 1259500000 },
+
+  { "nama": "Tucson", "type": "Smartstream G1.6T-GDi Hybrid AT", "category": "Hyundai", "segment": "SUV", "harga": 766600000 },
+  { "nama": "Tucson", "type": "Smartstream G2.0 Mpi AT", "category": "Hyundai", "segment": "SUV", "harga": 652000000 },
+
+  { "nama": "Venue", "type": "1.0L Turbo AT", "category": "Hyundai", "segment": "SUV", "harga": 340000000 },
+
+  { "nama": "Ioniq 5", "type": "Prime STD Range AT", "category": "Hyundai", "segment": "SUV Listrik", "harga": 809000000 },
+  { "nama": "Ioniq 5", "type": "Prime Long Range AT", "category": "Hyundai", "segment": "SUV Listrik", "harga": 851500000 },
+  { "nama": "Ioniq 5", "type": "Signature STD Range AT", "category": "Hyundai", "segment": "SUV Listrik", "harga": 873900000 },
+  { "nama": "Ioniq 5", "type": "Signature Long Range AT", "category": "Hyundai", "segment": "SUV Listrik", "harga": 925600000 },
+
+  { "nama": "Kona Electric", "type": "Style STD Range AT", "category": "Hyundai", "segment": "SUV Listrik", "harga": 565300000 },
+  { "nama": "Kona Electric", "type": "Prime STD Range AT", "category": "Hyundai", "segment": "SUV Listrik", "harga": 583500000 },
+  { "nama": "Kona Electric", "type": "Prime Long Range AT", "category": "Hyundai", "segment": "SUV Listrik", "harga": 634500000 },
+  { "nama": "Kona Electric", "type": "Signature STD Range AT", "category": "Hyundai", "segment": "SUV Listrik", "harga": 651700000 },
+  { "nama": "Kona Electric", "type": "Signature Long Range AT", "category": "Hyundai", "segment": "SUV Listrik", "harga": 668600000 },
+  { "nama": "Kona Electric", "type": "N Line AT", "category": "Hyundai", "segment": "SUV Listrik", "harga": 689600000 },
+
+  { "nama": "Ioniq 5N", "type": "AT", "category": "Hyundai", "segment": "SUV Listrik", "harga": 1500000000 }
+]
