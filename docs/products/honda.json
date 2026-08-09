@@ -1,0 +1,33 @@
+[
+  { "nama": "Brio", "type": "S CVT", "category": "Honda", "segment": "Hatchback", "harga": 188400000 },
+  { "nama": "Brio", "type": "E CVT", "category": "Honda", "segment": "Hatchback", "harga": 221250000 },
+  { "nama": "Brio", "type": "RS CVT", "category": "Honda", "segment": "Hatchback", "harga": 277300000 },
+
+  { "nama": "WR-V", "type": "E CVT", "category": "Honda", "segment": "SUV", "harga": 298150000 },
+  { "nama": "WR-V", "type": "RS CVT", "category": "Honda", "segment": "SUV", "harga": 312550000 },
+  { "nama": "WR-V", "type": "RS CVT Honda Sensing", "category": "Honda", "segment": "SUV", "harga": 336750000 },
+
+  { "nama": "BR-V", "type": "S MT", "category": "Honda", "segment": "SUV", "harga": 323950000 },
+  { "nama": "BR-V", "type": "E MT", "category": "Honda", "segment": "SUV", "harga": 340450000 },
+  { "nama": "BR-V", "type": "E N7X Edition CVT", "category": "Honda", "segment": "SUV", "harga": 353300000 },
+  { "nama": "BR-V", "type": "Prestige N7X Edition CVT", "category": "Honda", "segment": "SUV", "harga": 379750000 },
+  { "nama": "BR-V", "type": "Prestige CVT Honda Sensing N7X Edition", "category": "Honda", "segment": "SUV", "harga": 400350000 },
+
+  { "nama": "City Hatchback", "type": "RS with Honda Sensing CVT", "category": "Honda", "segment": "Hatchback", "harga": 396050000 },
+  { "nama": "City Sedan", "type": "New City Sedan", "category": "Honda", "segment": "Sedan", "harga": 402000000 },
+
+  { "nama": "HR-V", "type": "1.5 E CVT", "category": "Honda", "segment": "SUV", "harga": 400800000 },
+  { "nama": "HR-V", "type": "1.5 E+ CVT", "category": "Honda", "segment": "SUV", "harga": 423500000 },
+  { "nama": "HR-V", "type": "1.5 e:HEV CVT", "category": "Honda", "segment": "SUV", "harga": 463200000 },
+  { "nama": "HR-V", "type": "1.5 e:HEV Modulo E-CVT", "category": "Honda", "segment": "SUV", "harga": 474900000 },
+  { "nama": "HR-V", "type": "1.5 RS e:HEV E CVT", "category": "Honda", "segment": "SUV", "harga": 504000000 },
+
+  { "nama": "CR-V", "type": "e:HEV CVT", "category": "Honda", "segment": "SUV", "harga": 803400000 },
+  { "nama": "CR-V", "type": "2.0 RS e:HEV CVT", "category": "Honda", "segment": "SUV", "harga": 857300000 },
+
+  { "nama": "Civic RS", "type": "e:HEV CVT", "category": "Honda", "segment": "Sedan", "harga": 724900000 },
+  { "nama": "Civic Type R", "type": "2.0 MT", "category": "Honda", "segment": "Sport", "harga": 1479500000 },
+  { "nama": "Accord", "type": "RS 2.0 e:HEV E-CVT", "category": "Honda", "segment": "Sedan", "harga": 1005000000 },
+
+  { "nama": "StepWGN", "type": "e:HEV", "category": "Honda", "segment": "MPV", "harga": 665200000 }
+]
